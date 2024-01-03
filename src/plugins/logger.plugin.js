@@ -16,15 +16,9 @@ const logger = winston.createLogger({
   
   
   module.exports =  function buildLogger(service) {
-
 return {
 log: (message) => {
 logger.log('info', message,service)
-
-
 }
-
-
 }
-
   }
