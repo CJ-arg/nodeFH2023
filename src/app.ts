@@ -6,17 +6,17 @@
 // const { getUserById } = require('./js-foundation/04-arrow');
 // const { buildMakePerson } = require('./js-foundation/05-factory')
 // const getPokemonById = require('./js-foundation/06-promises');
-// const {buildLogger} = require('./plugins');
+import { buildLogger } from "./plugins/logger.plugin";
 
 // // getPokemonById(3)
 // //   .then( ( pokemon ) => console.log({ pokemon }) )
 // //   .catch( ( err ) => console.log( err ) )
 // //   .finally( () => console.log('Finalmente') );
 
-// const logger = buildLogger('app.js');
+const logger = buildLogger("app.ts");
 
-// logger.log('Hola Mundo');
-// logger.error('Sucedio un error')
+logger.log("Hola Mundo");
+logger.error("Sucedio un error");
 
 // // token de acceso
 // // Publicas
