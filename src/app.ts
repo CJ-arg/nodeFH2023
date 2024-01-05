@@ -30,4 +30,4 @@ logger.error("Sucedio un error");
 
 // console.log({ john });
 
-getPokemonById(1);
+getPokemonById(1).then();

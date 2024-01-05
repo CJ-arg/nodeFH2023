@@ -1,0 +1,6 @@
+{"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T15:53:23.956Z"}
+{"level":"error","message":"error Sucedio un error","service":"app.ts"}
+{"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T15:54:23.002Z"}
+{"level":"error","message":"error Sucedio un error","service":"app.ts"}
+{"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T15:55:18.949Z"}
+{"level":"error","message":"error Sucedio un error","service":"app.ts"}
