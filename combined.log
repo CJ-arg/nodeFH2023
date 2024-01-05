@@ -107,3 +107,5 @@
 {"level":"error","message":"error Sucedio un error","service":"app.ts"}
 {"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T15:23:42.155Z"}
 {"level":"error","message":"error Sucedio un error","service":"app.ts"}
+{"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T15:24:18.770Z"}
+{"level":"error","message":"error Sucedio un error","service":"app.ts"}
