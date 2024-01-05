@@ -51,3 +51,9 @@
 {"level":"error","message":"error Sucedio un error","service":"app.ts"}
 {"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T14:53:51.987Z"}
 {"level":"error","message":"error Sucedio un error","service":"app.ts"}
+{"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T14:55:47.999Z"}
+{"level":"error","message":"error Sucedio un error","service":"app.ts"}
+{"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T14:55:59.089Z"}
+{"level":"error","message":"error Sucedio un error","service":"app.ts"}
+{"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T14:56:34.679Z"}
+{"level":"error","message":"error Sucedio un error","service":"app.ts"}
