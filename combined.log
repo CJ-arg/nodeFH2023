@@ -103,3 +103,7 @@
 {"level":"error","message":"error Sucedio un error","service":"app.ts"}
 {"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T15:21:55.272Z"}
 {"level":"error","message":"error Sucedio un error","service":"app.ts"}
+{"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T15:23:31.416Z"}
+{"level":"error","message":"error Sucedio un error","service":"app.ts"}
+{"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-05T15:23:42.155Z"}
+{"level":"error","message":"error Sucedio un error","service":"app.ts"}
