@@ -6,17 +6,17 @@
 // const { getUserById } = require('./js-foundation/04-arrow');
 // const { buildMakePerson } = require('./js-foundation/05-factory')
 // const getPokemonById = require('./js-foundation/06-promises');
-import { getPokemonById } from "./js-foundation/06-promises";
-import { buildLogger } from "./plugins/logger.plugin";
+// import { getPokemonById } from "./js-foundation/06-promises";
+// import { buildLogger } from "./plugins/logger.plugin";
 
 //   .then( ( pokemon ) => console.log({ pokemon }) )
 // //   .catch( ( err ) => console.log( err ) )
 // //   .finally( () => console.log('Finalmente') );
 
-const logger = buildLogger("app.ts");
+// const logger = buildLogger("app.ts");
 
-logger.log("Hola Mundo");
-logger.error("Sucedio un error");
+// logger.log("Hola Mundo");
+// logger.error("Sucedio un error");
 
 // // token de acceso
 // // Publicas
@@ -30,4 +30,4 @@ logger.error("Sucedio un error");
 
 // console.log({ john });
 
-getPokemonById(1).then();
+// getPokemonById(1).then();
