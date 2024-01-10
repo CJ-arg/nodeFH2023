@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1704894133641" clover="3.2.0">
-  <project timestamp="1704894133641" name="All files">
+<coverage generated="1704896336553" clover="3.2.0">
+  <project timestamp="1704896336553" name="All files">
     <metrics statements="28" coveredstatements="26" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1" elements="32" coveredelements="29" complexity="0" loc="28" ncloc="28" packages="1" files="1" classes="1"/>
     <file name="03-callbacks.ts" path="C:\Users\argen\OneDrive\Desktop\code\node2023\node-ts-bases\src\js-foundation\03-callbacks.ts">
       <metrics statements="28" coveredstatements="26" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
