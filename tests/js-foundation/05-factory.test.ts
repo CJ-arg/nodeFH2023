@@ -12,7 +12,7 @@ describe("js-foundation/05-factory.ts", () => {
   test("makeperson should return a person ", () => {
     const makePerson = buildMakePersons({ getUUID, getAge });
     const jonDoe = makePerson({ name: "John Doe", birthdate: "1985-10-21" });
-    console.log(jonDoe);
+    // console.log(jonDoe);
     expect(jonDoe).toEqual({
       id: "1234",
       name: "John Doe",
