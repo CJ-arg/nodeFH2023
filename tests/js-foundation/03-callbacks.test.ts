@@ -10,4 +10,13 @@ describe("ja-foundation/03-callbacks.ts", () => {
       done();
     });
   });
+  test("getUserById get an user", (done) => {
+    const idTest = 1;
+
+    getUserById(idTest, (err, user) => {
+      expect(user?.name).toBe("John Doe");
+      expect(user?.id).toBe(1);
+      done();
+    });
+  });
 });
