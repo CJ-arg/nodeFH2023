@@ -6,6 +6,7 @@ describe("ja-foundation/03-callbacks.ts", () => {
 
     getUserById(idTest, (err, user) => {
       expect(err).toBe(`User not found with id ${idTest}`);
+      expect(user).toBeUndefined();
     });
   });
 });
