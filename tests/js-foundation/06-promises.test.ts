@@ -6,4 +6,14 @@ describe("js-foundation/06-promises.ts", () => {
     const pokemonName = await getPokemonById(pokemonID);
     expect(pokemonName).toBe("bulbasaur");
   });
+
+  test(" should return error if pokemon doesent exist", async () => {
+    const pokemonID = 1000000;
+    try {
+      const pokemonName = await getPokemonById(pokemonID);
+      expect(true).toBeFalsy();
+    } catch (error) {
+      expect(error).toBe(`Pokemon not Found  ${pokemonID}`);
+    }
+  });
 });
