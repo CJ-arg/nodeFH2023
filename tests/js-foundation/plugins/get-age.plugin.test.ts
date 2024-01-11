@@ -19,7 +19,7 @@ describe("get-age.plugin.ts ", () => {
     const birthdate = "1986-06-25";
     const age = getAge(birthdate);
     expect(age).toBe(0);
-    expect(spy).toHaveBeenCalled();
+    expect(spy).toHaveBeenCalledWith();
     // console.log(spy);
   });
 });
