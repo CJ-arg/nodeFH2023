@@ -13,4 +13,11 @@ describe("plugins/http-client.plugin", () => {
       completed: expect.any(Boolean),
     });
   });
+  test("httpClientPlugin should have POST PUT DELETE mathods", () => {
+    console.log(typeof httpClientPlugin.post);
+    expect(typeof httpClientPlugin.post).toBe("function");
+    expect(typeof httpClientPlugin.put).toBe("function");
+    expect(typeof httpClientPlugin.delete).toBe("function");
+    expect(typeof httpClientPlugin.get).toBe("function");
+  });
 });
