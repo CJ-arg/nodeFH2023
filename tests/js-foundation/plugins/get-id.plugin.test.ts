@@ -5,5 +5,6 @@ describe("get-id.plugin.ts", () => {
     const uuid = getUUID();
 
     expect(typeof uuid).toBe("string");
+    expect(uuid.length).toBe(36);
   });
 });
