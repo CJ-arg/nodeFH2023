@@ -6,3 +6,9 @@
 {"level":"error","message":"error Sucedio un error","service":"app.ts"}
 {"level":"info","message":"Hola Mundo","service":"app.ts","timestamp":"2024-01-08T16:05:27.790Z"}
 {"level":"error","message":"error Sucedio un error","service":"app.ts"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-01-11T16:25:59.431Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-01-11T16:26:29.914Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-01-11T16:26:40.565Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-01-11T16:27:09.297Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-01-11T16:28:09.353Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-01-11T16:30:43.223Z"}
