@@ -9,5 +9,8 @@ describe("get-age.plugin.ts ", () => {
   test("should return current age", () => {
     const birthdate = "1986-06-25";
     const age = getAge(birthdate);
+    const calculateDate =
+      new Date().getFullYear() - new Date(birthdate).getFullYear();
+    expect(age).toBe(calculateDate);
   });
 });
