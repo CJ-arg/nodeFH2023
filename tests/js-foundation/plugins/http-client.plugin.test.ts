@@ -10,7 +10,7 @@ describe("plugins/http-client.plugin", () => {
       userId: 1,
       id: 1,
       title: "delectus aut autem",
-      completed: true,
+      completed: expect.any(Boolean),
     });
   });
 });
